@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    
+}
+header{
+    background-color: rgb(69, 159, 238);
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+    
+}
+
+
+header img{
+    height: 160px;
+    margin-top: 40px;
+}
+
+header h1{
+    color: rgb(200, 198, 198);
+    font-size: 45px;
+}
+
+
+header nav li{
+    display: inline;
+}
+header .hlinks ul{
+    
+    margin: 0 0 0 50px;
+    display: flex;
+}
+header .hlinks ul a{
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(200, 198, 198);
+}
+header .hlinks ul a:hover{
+    color: #fff;
+}
+.backg video{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    float: left;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    transform: translateX(-50%);
+    
+}
+.news span{
+    transform: scale(0.9, 1);
+}
+.sector_news .not{
+    font-family: "Gugi", cursive;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(209,241,255,.4);
+    letter-spacing: .3em;
+    font-style: normal;
+}
+.sector_news{
+    color: aliceblue;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    
+}
+.sector_news img{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    
+}
+.sector_news p{
+    max-width: 350px;
+    width: 100%;
+
+}
+.sector_news .news{
+    display: flex;
+    justify-content: space-between;
+}
+#History .hi{
+    font-family: "Gugi", cursive;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(209,241,255,.4);
+    letter-spacing: .3em;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+#History{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#History .hist img{
+    height: 300px;
+    box-shadow: 0 0 10px ;
+    border-radius: 30px;
+}
+#History .hist{
+    display: flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.316);
+    border-radius: 30px;
+}
+#History .hist p{
+    width: 500px;
+    font-size: 25px;
+}
+#History .trailer h2{
+    margin: 30px 15%;
+}
+#History .trailer{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 30%;
+}
+#Characters .char{
+    font-family: "Gugi", cursive;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(209,241,255,.4);
+    letter-spacing: .3em;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+#Characters .ch{
+    display: flex;
+    color: #fff;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+#Characters h3{
+    font-size: 50px;
+}
+#Characters p{
+    font-size: 40px;
+}
+#Spino .Spin{
+    display: flex;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+#Spino .Spin img{
+    margin: 20px;
+    border-radius: 20px;
+}
+#Spino .sp{
+    font-family: "Gugi", cursive;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(209,241,255,.4);
+    letter-spacing: .3em;
+    font-style: normal;
+}
+.play{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 20%;
+    border-radius: 20px;
+}
+.play h3{
+    color: #fff;
+    margin: 30px 28%;
+    font-size: 40px;
+}
+#Contact h2{
+    font-family: "Gugi", cursive;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(209,241,255,.4);
+    letter-spacing: .3em;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+#Contact form {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    margin: 0 0 0 550px;
+}
+#Contact form input, textarea, button{
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    
+}
+#Contact p{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 0 90px;
+}
+textarea{
+    height: 100px;
+}
+#Contact button{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
